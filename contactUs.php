@@ -13,9 +13,9 @@ printHead('Contact Us')?>
    <div class="row">
      <div class="col-lg-6">
        <div class="form-content">
-       <form>
+       <form id="contactForm">
           <div class="form-group">
-            <input type="text" class="danger">
+            <input type="text" id="danger">
           </div>
           <div class="form-group">
             <label for="firstName">First Name:</label>
@@ -40,7 +40,7 @@ printHead('Contact Us')?>
             <textarea name="message" id="message" cols="45" rows="8"></textarea>
           </div>
   
-          <button type="submit" class="btn">Submit</button>
+          <button type="submit" id="submit" class="btn">Submit</button>
       </form>
        </div>
      </div>
