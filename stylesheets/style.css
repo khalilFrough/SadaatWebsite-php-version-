@@ -106,6 +106,12 @@ body {
   margin: 0 auto;
   margin: 2rem 0;
 }
+.sub-heading {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-weight: 500;
+  padding-top: 3rem;
+}
 .container {
   text-align: center;
 }
@@ -249,6 +255,41 @@ body {
   text-align: center;
 }
 
+/* --------------------------------------------------------------------------------
+-------------------------------Styling the Contact Us Page--------------------------- */
+.form-content {
+  background-color: var(--color-gray);
+  height: 85vh;
+  margin: 2rem 0rem;
+  font-size: 1.6rem;
+}
+.form-group > input {
+  border-color: var(--primary-color);
+  font-size: inherit;
+  text-align: left;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  width: 50%;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: var(--color-black);
+  color: var(--primary-light);
+}
+.map-content {
+  background-color: var(--color-gray);
+  height: 85vh;
+  margin: 2rem 0rem;
+  font-size: 1.6rem;
+}
+/* adjesting the size of the map */
+
+.map-content > iframe {
+  width: 100%;
+}
 /* --------------------------------------------------------------------------------
 -------------------------------Styling the Footer Page--------------------------- */
 .main-footer {

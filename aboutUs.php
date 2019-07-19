@@ -7,8 +7,6 @@ printHead('About Us')?>
 <body>
  <!-- including the head  -->
  <?php include dirname(__FILE__).'/includes/head.php';?> 
-    
-
 <!-- the main body stats from here -->
 <div class="container">
   <div class="row">
