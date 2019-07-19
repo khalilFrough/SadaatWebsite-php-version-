@@ -22,7 +22,7 @@ printHead('HomeTesting')?>
     <div class="container">
       <h1 class="heading">We Offer the follwing Services</h1>
         <div class="row">
-          <div class="col-xl-3 col-lg-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <!-- first Card starts here -->
               <div class="card">
                 <div class="card__side card__side--front">
@@ -42,7 +42,7 @@ printHead('HomeTesting')?>
               </div>
           <!-- first Card finishes here -->
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <!-- card 2 stars from here -->
             <div class="card">
                 <div class="card__side card__side--front">
@@ -62,7 +62,7 @@ printHead('HomeTesting')?>
               </div>
             <!-- card 2 end in here -->
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <!-- card 3 starts from here  -->
             <div class="card">
                 <div class="card__side card__side--front">
@@ -82,7 +82,7 @@ printHead('HomeTesting')?>
               </div>
             <!-- card 3 ends in here -->
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <!-- card 4 starts in here  -->
             <div class="card">
                 <div class="card__side card__side--front">
