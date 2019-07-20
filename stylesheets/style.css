@@ -63,7 +63,7 @@ body {
   content: "";
   height: 100vh;
   width: 100%;
-  background-image: url(../media/sunset.jpg);
+  background-image: url(../media/bathroom.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -253,6 +253,61 @@ body {
 }
 .title {
   text-align: center;
+}
+
+/* -******************************************************************************
+-------------------------------Styling the Gallary Page---------------------------
+******************************************************************************** */
+
+/* --------------------------------------------------------------------------------
+-------------------------------Styling the tile gallary Page--------------------------- */
+.tile-gallary > img {
+  width: 100%;
+  margin-top: 2rem;
+}
+.tile-gallary:hover {
+  opacity: 0.8;
+  transition: ease-out 0.5s;
+}
+
+/* --------------------------------------------------------------------------------
+-------------------------------Styling the Services Page--------------------------- */
+
+.services-picture {
+  border: 1px solid green;
+  height: 90%;
+  width: 100%;
+  border: 1px solid green;
+  font-size: 1.6rem;
+  padding: 1rem 1rem;
+  margin: 2rem 0;
+}
+.services-picture > img {
+  width: 100%;
+}
+
+.services-paragraph {
+  height: 90%;
+  width: 100%;
+  border: 1px solid green;
+  background-color: var(--color-gray);
+  font-size: 1.6rem;
+  padding: 1rem 1rem;
+  margin: 2rem 0;
+}
+.services-paragraph > p {
+  padding-top: 2rem;
+  text-align: left;
+}
+
+/* --------------------------------------------------------------------------------
+-------------------------------Styling the Estimation Page--------------------------- */
+
+.services-quotation {
+  border: 1px solid green;
+  height: 95vh;
+  background-color: var(--color-gray);
+  margin: 2rem 0rem;
 }
 
 /* --------------------------------------------------------------------------------

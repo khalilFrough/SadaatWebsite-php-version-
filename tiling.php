@@ -12,8 +12,8 @@ printHead('Estimation')?>
    <div class="row">
    <div class="col-lg-12">
           <div class="services-quotation">
-            <h1 class="heading">get an estimation for your work</h1>
-            <h2 class="sub-heading">Simply fill in the fileds and get a calculation</h2>
+            <h1 class="heading">This is the tiling page</h1>
+            <h2 class="sub-heading">Gallary for the tiling</h2>
           </div>
     </div> 
    </div>
@@ -24,4 +24,3 @@ printHead('Estimation')?>
 <?php include dirname(__FILE__).'/includes/footer.php';?>
   </body>
 </html>
-

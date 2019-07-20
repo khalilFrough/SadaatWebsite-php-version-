@@ -13,9 +13,9 @@
                 <li class="nav-item"><a href="aboutUs.php" class="nav-link">About Us</a></li>
                 <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"role="button" data-toggle="dropdown">Gallary</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a href="#" class="dropdown-item">Tiling</a>
+                        <a href="tiling.php" class="dropdown-item">Tiling</a>
                     <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">Stone</a>
+                        <a href="stone.php" class="dropdown-item">Stone</a>
                     </div>
                 </li>
                 <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
