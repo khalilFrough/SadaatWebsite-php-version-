@@ -16,20 +16,40 @@ form.addEventListener("submit", function(e) {
     email.value === "" ||
     message.value === ""
   ) {
-    runAlert("None of the above fields can be empty!");
+    runAlert("None of the below fields can be empty!");
+  } else if (firstName.value.length < 3) {
+    runAlert("Name can not be less then 3 characters");
+  } else if (lastName.value.length < 3) {
+    runAlert("Last Name can not be less then 3 characters");
+  } else if (!phone.value.match(/^[0-9]{4}\s[0-9]{3}\s[0-9]{3}$/)) {
+    runAlert("Phone number is not valid");
   } else {
-    console.log("success");
+    runSuccess("Your message is recieved, thanks");
+    e.submit();
   }
   e.preventDefault();
 });
 
 function runAlert(message) {
-  danger.className = "alert alert-danger";
-  danger.style.opacity = 1;
-  danger.setAttribute("type", "text");
-  danger.value = message;
+  // parent div
+  const formContent = document.querySelector(".form-content");
+  const errorDiv = document.createElement("div");
+  errorDiv.className = "alert alert-danger";
+  errorDiv.appendChild(document.createTextNode(message));
+  formContent.insertBefore(errorDiv, form);
+  // clear error
+  setTimeout(clearError, 2000);
 }
 
 function clearError() {
-  document.querySelector(".alert.alert-danger").remove();
+  document.querySelector(".alert").remove();
+}
+function runSuccess(message) {
+  const formContent = document.querySelector(".form-content");
+  const errorDiv = document.createElement("div");
+  errorDiv.className = "alert alert-success";
+  errorDiv.appendChild(document.createTextNode(message));
+  formContent.insertBefore(errorDiv, form);
+  // clear error
+  setTimeout(clearError, 2000);
 }
