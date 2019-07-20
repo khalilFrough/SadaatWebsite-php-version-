@@ -259,7 +259,7 @@ body {
 -------------------------------Styling the Contact Us Page--------------------------- */
 .form-content {
   background-color: var(--color-gray);
-  height: 85vh;
+  height: 90vh;
   margin: 2rem 0rem;
   font-size: 1.6rem;
 }
@@ -288,7 +288,7 @@ body {
 }
 .map-content {
   background-color: var(--color-gray);
-  height: 85vh;
+  height: 90vh;
   margin: 2rem 0rem;
   font-size: 1.6rem;
 }

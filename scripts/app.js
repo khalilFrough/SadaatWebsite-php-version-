@@ -24,7 +24,7 @@ form.addEventListener("submit", function(e) {
   } else if (!phone.value.match(/^[0-9]{4}\s[0-9]{3}\s[0-9]{3}$/)) {
     runAlert("Phone number is not valid");
   } else {
-    runSuccess("Your message is recieved, thanks");
+    // runSuccess("Your message is recieved, thanks");
     e.submit();
   }
   e.preventDefault();

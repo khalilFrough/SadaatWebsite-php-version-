@@ -13,12 +13,12 @@ printHead('Contact Us')?>
    <div class="row">
      <div class="col-lg-6">
        <div class="form-content">
-       <form action="formSubmition.php"id="contactForm" method="post">
+       <form action="email.php" id="contactForm" method="post">
           <div class="form-group">
           </div>
           <div class="form-group">
             <label for="firstName">First Name:</label>
-            <input type="text" name="firstName" class="form-control" id="firstName" placeholder="First Name">
+            <input type="text" name="name" class="form-control" id="firstName" placeholder="First Name">
           </div>
           <div class="form-group">
             <label for="lastName">Last Name:</label>
@@ -26,17 +26,17 @@ printHead('Contact Us')?>
           </div>
           <div class="form-group">
             <label for="contactNumber">Contact Number:</label>
-            <input type="text" name="phone"class="form-control" id="contactNumber" placeholder="Contact Number">
+            <input type="text" name="phone" class="form-control" id="contactNumber" placeholder="0450 442 424">
           </div>
           <div class="form-group">
             <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" name="email"class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <input type="emailAdd" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
 
           <div class="form-group">
             <label for="message">Message:</label>
-            <textarea name="message" id="message" cols="45" rows="8"></textarea>
+            <textarea name="msg" id="message" cols="45" rows="8"></textarea>
           </div>
   
           <button type="submit" id="submit" class="btn">Submit</button>
