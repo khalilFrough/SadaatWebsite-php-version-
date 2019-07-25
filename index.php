@@ -3,7 +3,7 @@
 <?php
 include dirname(__FILE__).'/includes/externalJavaScript.php';
 include dirname(__FILE__).'/includes/tools.php';
-printHead('HomeTesting')?>
+printHead('Home')?>
 
   <body>
     <!-- including the head  -->

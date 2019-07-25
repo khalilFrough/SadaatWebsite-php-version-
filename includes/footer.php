@@ -20,5 +20,6 @@
         
     
     <!-- customer JavaScript -->
+    <script src="/scripts/lightbox-plus-jquery.min.js"></script>
     <script src="/scripts/app.js"></script>
 </footer>

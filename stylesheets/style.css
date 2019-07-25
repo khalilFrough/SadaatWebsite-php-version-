@@ -261,13 +261,16 @@ body {
 
 /* --------------------------------------------------------------------------------
 -------------------------------Styling the tile gallary Page--------------------------- */
+
+/* --------------------------------------------------------------------------------
+-------------------------------Styling the Stone gallary Page--------------------------- */
 .tile-gallary > img {
   width: 100%;
   margin-top: 2rem;
 }
 .tile-gallary:hover {
-  opacity: 0.8;
-  transition: ease-out 0.5s;
+  opacity: 0.6;
+  transition: ease-out 0.9s;
 }
 
 /* --------------------------------------------------------------------------------
@@ -304,8 +307,8 @@ body {
 -------------------------------Styling the Estimation Page--------------------------- */
 
 .services-quotation {
-  border: 1px solid green;
-  height: 95vh;
+  /* border: 1px solid green; */
+  height: 100vh;
   background-color: var(--color-gray);
   margin: 2rem 0rem;
 }

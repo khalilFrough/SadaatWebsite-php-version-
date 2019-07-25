@@ -3,7 +3,7 @@
 <?php
 include dirname(__FILE__).'/includes/externalJavaScript.php';
 include dirname(__FILE__).'/includes/tools.php';
-printHead('TileGallary')?>
+printHead('StoneGallary')?>
 <body>
  <!-- including the head  -->
  <?php include dirname(__FILE__).'/includes/head.php';?> 
@@ -12,8 +12,8 @@ printHead('TileGallary')?>
    <div class="row">
    <div class="col-lg-12">
           <div class="services-quotation">
-            <h1 class="heading">Tile Gallery</h1>
-            <h2 class="sub-heading">Wall and Floor Tiles</h2>
+            <h1 class="heading">Water Proof and Screed Gallery</h1>
+            <h2 class="sub-heading">Some Samples of Water Proof and Screed</h2>
 
             <!-- first colum picutres -->
             <div class="row">

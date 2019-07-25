@@ -13,10 +13,13 @@
                 <li class="nav-item"><a href="aboutUs.php" class="nav-link">About Us</a></li>
                 <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"role="button" data-toggle="dropdown">Gallary</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a href="tiling.php" class="dropdown-item">Tiling</a>
+                        <a href="tiling.php" class="dropdown-item">Floor & Wall Tile</a>
                     <div class="dropdown-divider"></div>
-                        <a href="stone.php" class="dropdown-item">Stone</a>
+                        <a href="stone.php" class="dropdown-item">Stone & Marbles</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="screed.php" class="dropdown-item">Water Proof & Screed</a>
                     </div>
+                    
                 </li>
                 <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
                 <li class="nav-item"><a href="estimation.php" class="nav-link">Estimation</a></li>
