@@ -5,6 +5,8 @@ if (title === "tileGallary") {
   tileGallaryContent();
 } else if (title === "ContactUs") {
   contactUsContent();
+} else if (title === "AboutUs") {
+  pictureSlides();
 }
 
 function contactUsContent() {
@@ -88,4 +90,26 @@ function tileGallaryContent() {
     modal.style.display = "none";
   };
 }
-//******************* end of modle layout */
+// ******************** about us page functionality *****************
+
+function pictureSlides() {
+  // array to store the pictures
+  let picArray = [
+    "../media/bathroom.jpg",
+    "../media/wallTiles/floor3.jpg",
+    "../media/wallTiles/floor4.jpg",
+    "../media/wallTiles/floor9.jpg"
+  ];
+  let index = 0;
+  function changePicture() {
+    let picSrc = (document.getElementById("services-img").src =
+      picArray[index]);
+    console.log(picSrc);
+    if (index < picArray.length - 1) {
+      index++;
+    } else {
+      index = 0;
+    }
+  }
+  setInterval(changePicture, 2000);
+}

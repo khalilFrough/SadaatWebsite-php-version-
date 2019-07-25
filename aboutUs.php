@@ -40,7 +40,7 @@ printHead('AboutUs')?>
   <div class="col-sm-12 services">
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-4 col-xs-3 services-pictures">
-        <img src="../media/tile.jpg" alt="services images will go here" id="services-img">
+        <img src="../media/wallTiles/floor1.jpg" alt="services images will go here" id="services-img">
       </div>
       <div class="col-lg-8 col-md-6 col-sm-8 col-xs-9 services-text">
         <div class="title"><h1 class="heading">Our Services</h1></div>
