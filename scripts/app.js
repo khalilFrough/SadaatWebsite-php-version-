@@ -1,12 +1,12 @@
 let title = document.title;
-console.log(title);
-
 if (title === "tileGallary") {
   tileGallaryContent();
 } else if (title === "ContactUs") {
   contactUsContent();
 } else if (title === "AboutUs") {
   pictureSlides();
+} else if (title === "estimation") {
+  console.log("Estimation");
 }
 
 function contactUsContent() {
@@ -104,7 +104,7 @@ function pictureSlides() {
   function changePicture() {
     let picSrc = (document.getElementById("services-img").src =
       picArray[index]);
-    console.log(picSrc);
+    picSrc;
     if (index < picArray.length - 1) {
       index++;
     } else {

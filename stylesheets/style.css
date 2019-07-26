@@ -261,9 +261,13 @@ body {
 
 /* --------------------------------------------------------------------------------
 -------------------------------Styling the tile gallary Page--------------------------- */
+.tile-gallary {
+  /* border: 1px solid green; */
+  /* height: 100vh; */
+  background-color: var(--color-gray);
+  margin: 2rem 0rem;
+}
 
-/* --------------------------------------------------------------------------------
--------------------------------Styling the Stone gallary Page--------------------------- */
 .tile-gallary > img {
   width: 100%;
   margin-top: 2rem;
@@ -272,6 +276,8 @@ body {
   opacity: 0.6;
   transition: ease-out 0.9s;
 }
+/* --------------------------------------------------------------------------------
+-------------------------------Styling the Stone gallary Page--------------------------- */
 
 /* --------------------------------------------------------------------------------
 -------------------------------Styling the Services Page--------------------------- */
@@ -305,14 +311,24 @@ body {
 
 /* --------------------------------------------------------------------------------
 -------------------------------Styling the Estimation Page--------------------------- */
-
-.tile-gallary {
-  /* border: 1px solid green; */
-  /* height: 100vh; */
+.estimation-page {
   background-color: var(--color-gray);
   margin: 2rem 0rem;
+  height: 90%;
 }
-
+.estimation-card {
+  height: 80rem;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid var(--primary-light);
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  background-color: white;
+}
+.display-results,
+.loading {
+  display: none;
+}
 /* --------------------------------------------------------------------------------
 -------------------------------Styling the Contact Us Page--------------------------- */
 .form-content {
