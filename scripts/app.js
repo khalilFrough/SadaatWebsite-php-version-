@@ -125,7 +125,10 @@ function estimationContent() {
   const calculate = document.getElementById("calculate");
   const option = document.getElementById("category");
   // some incremental variables
-  let area, total;
+  let area,
+    total,
+    tileRate = 2,
+    stoneRate = 3;
   // some displaying variables
 
   const totalArea = document.getElementById("totalArea");
@@ -153,14 +156,52 @@ function estimationContent() {
       height.value !== " "
     ) {
       area = width.value * height.value;
-      total = area * 2;
-      totalArea.value = area;
-      totalAmount.value = "AUD " + total;
+      total = area * tileRate;
+      totalArea.value = area + " m²";
+      totalAmount.value =
+        "$ " +
+        total +
+        `  Tile is calculated at $${tileRate} per m² including water proof and screed `;
       console.log("the code runs");
       loadingSpinner.style.display = "none";
       displayResult.forEach(function(index) {
         index.style.display = "block";
       });
+    } else if (
+      option.value === "stone" &&
+      width.value !== " " &&
+      height.value !== " "
+    ) {
+      area = width.value * height.value;
+      total = area * stoneRate;
+      totalArea.value = area + " m²";
+      totalAmount.value =
+        "$ " + total + `  Stone is calculated at $${stoneRate} per m² `;
+      console.log("the code runs");
+      loadingSpinner.style.display = "none";
+      displayResult.forEach(function(index) {
+        index.style.display = "block";
+      });
+    } else {
+      loadingSpinner.style.display = "none";
+      showError(
+        "Opps! You Forgot to put in the values, Please Put in The Values!"
+      );
     }
+    width.value = "";
+    height.value = "";
+    option.value = "";
+  }
+
+  function showError(error) {
+    const divError = document.createElement("div");
+    divError.className = "alert alert-danger";
+    divError.appendChild(document.createTextNode(error));
+    const card = document.querySelector(".estimation-card");
+    card.insertBefore(divError, form);
+    setTimeout(clearError, 3000);
+  }
+  function clearError() {
+    document.querySelector(".alert-danger").remove();
   }
 }

@@ -41,9 +41,12 @@ printHead('estimation')?>
           <h2 class="sub-heading">Display Results</h2>
           <div class="form-group display-results">
           <label for="totalArea">Total Area</label>
-            <input type="number" class="form-control" name="totalArea"id="totalArea"disabled>
+            <input type="text" class="form-control" name="totalArea"id="totalArea"disabled>
             <label for="totalAmount">Total Amount</label>
             <input type="text" class="form-control" name="totalAmount"id="totalAmount"disabled>
+            <br>
+            <p style="color:red;">This is a simple Estimation tool, real life quotes might vary (Low or hight depending on the work)</p>
+           
           </div>
   
           
