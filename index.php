@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+$pageId =1 ;
 include dirname(__FILE__).'/includes/externalJavaScript.php';
 include dirname(__FILE__).'/includes/tools.php';
 printHead('Home')?>
@@ -32,10 +33,10 @@ printHead('Home')?>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Espresson</li>
-                    <li>Latte</li>
-                    <li>Cappuccino</li>
-                    <li>Long Black</li>
+                    <li>Floor Tile</li>
+                    <li>Wall Tile</li>
+                    <li>Water Proof</li>
+                    <li>Screed</li>
                   </ul>
                 </div>
                 </div>
@@ -52,10 +53,10 @@ printHead('Home')?>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Espresson</li>
-                    <li>Latte</li>
-                    <li>Cappuccino</li>
-                    <li>Long Black</li>
+                    <li>Natural Stone</li>
+                    <li>Granite</li>
+                    <li>Marbel</li>
+                    <li>Ceramic</li>
                   </ul>
                 </div>
                 </div>
@@ -72,10 +73,10 @@ printHead('Home')?>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Espresson</li>
-                    <li>Latte</li>
-                    <li>Cappuccino</li>
-                    <li>Long Black</li>
+                    <li>Timber</li>
+                    <li>Laminate</li>
+                    <li>Carpet</li>
+                    <li>Tile (Natural Stone)</li>
                   </ul>
                 </div>
                 </div>
@@ -92,10 +93,10 @@ printHead('Home')?>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Espresson</li>
-                    <li>Latte</li>
-                    <li>Cappuccino</li>
-                    <li>Long Black</li>
+                    <li>Free Quotes</li>
+                    <li> <a href="estimation.php">Estimation Tool</a></li>
+                    <li>Free Measurement</li>
+                    <li>Great Services</li>
                   </ul>
                 </div>
                 </div>

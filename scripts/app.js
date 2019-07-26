@@ -156,7 +156,7 @@ function estimationContent() {
       height.value !== " "
     ) {
       area = width.value * height.value;
-      total = area * tileRate;
+      total = Math.floor(area * tileRate);
       totalArea.value = area + " m²";
       totalAmount.value =
         "$ " +
@@ -173,11 +173,10 @@ function estimationContent() {
       height.value !== " "
     ) {
       area = width.value * height.value;
-      total = area * stoneRate;
+      total = Math.floor(area * stoneRate);
       totalArea.value = area + " m²";
       totalAmount.value =
         "$ " + total + `  Stone is calculated at $${stoneRate} per m² `;
-      console.log("the code runs");
       loadingSpinner.style.display = "none";
       displayResult.forEach(function(index) {
         index.style.display = "block";

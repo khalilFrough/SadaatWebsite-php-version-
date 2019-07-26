@@ -1,3 +1,4 @@
+
 <head> 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
@@ -9,7 +10,7 @@
             <span class="navbar-text">S&G Tiling</span>
             <!-- in order to place the nav bar back to the left, just remove the ml-auto class -->
             <ul class="navbar-nav ml-auto"> 
-                <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.php" class ="nav-link">Home</a></li>
                 <li class="nav-item"><a href="aboutUs.php" class="nav-link">About Us</a></li>
                 <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"role="button" data-toggle="dropdown">Gallary</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">

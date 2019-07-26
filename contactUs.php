@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+$pageId =8 ;
 include dirname(__FILE__).'/includes/externalJavaScript.php';
 include dirname(__FILE__).'/includes/tools.php';
 printHead('ContactUs')?>
@@ -50,8 +51,8 @@ printHead('ContactUs')?>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d402565.8637873003!2d144.32139118423234!3d-37.97606020334869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1551786581252" width="800" height="358" frameborder="0" style="border:0" allowfullscreen></iframe>
           <h2 class="sub-heading">Other Contacts</h2>
           Name: Saadat  <br>
-          phone: 0450 442424 <br>
-          <a href="mailto:someone@example.com">S&Gtiling@info.com</a>
+          <i class="fas fa-mobile-alt"></i> phone: 0450 442424 <br>
+          <i class="fas fa-envelope-open-text"></i> <a href="mailto:someone@example.com">S&Gtiling@info.com</a>
         </div>
      </div>
    </div>

@@ -324,6 +324,7 @@ body {
   padding: 1rem 1rem;
   font-size: 1.6rem;
   background-color: white;
+  margin-bottom: 2rem;
 }
 .display-results,
 .loading {
@@ -379,4 +380,17 @@ body {
   color: var(--color-black);
   align-items: center;
   text-align: center;
+  font-size: 1.3rem;
+}
+.fab {
+  padding: 0.1rem 3rem;
+}
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-twitter-square {
+  color: #1da1f2;
+}
+.fa-instagram {
+  color: #bc2a8d;
 }

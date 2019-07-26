@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+$pageId =2 ;
 include dirname(__FILE__).'/includes/externalJavaScript.php';
 include dirname(__FILE__).'/includes/tools.php';
 printHead('AboutUs')?>
@@ -15,13 +16,13 @@ printHead('AboutUs')?>
       <div class="category">
         <div class="heading">Category</div>
         <ul class="category-list">
-          <li class="category-list-item"><a href="#" class="category-list-item-link">Wall Tiling</a></li>
-          <li class="category-list-item"><a href="#" class="category-list-item-link">Floor Tiling</a></li>
-          <li class="category-list-item"><a href="#" class="category-list-item-link">Water Proofing</a></li>
-          <li class="category-list-item"><a href="#" class="category-list-item-link">Screed</a></li>
-          <li class="category-list-item"><a href="#" class="category-list-item-link">Ceramic Tiles</a></li>
-          <li class="category-list-item"><a href="#" class="category-list-item-link">Natural Stones</a></li>
-          <li class="category-list-item"><a href="#" class="category-list-item-link"> Marbles</a></li>
+          <li class="category-list-item"><a href="services.php" class="category-list-item-link">Wall Tiling</a></li>
+          <li class="category-list-item"><a href="services.php" class="category-list-item-link">Floor Tiling</a></li>
+          <li class="category-list-item"><a href="services.php" class="category-list-item-link">Water Proofing</a></li>
+          <li class="category-list-item"><a href="services.php" class="category-list-item-link">Screed</a></li>
+          <li class="category-list-item"><a href="services.php" class="category-list-item-link">Ceramic Tiles</a></li>
+          <li class="category-list-item"><a href="services.php" class="category-list-item-link">Natural Stones</a></li>
+          <li class="category-list-item"><a href="services.php" class="category-list-item-link"> Marbles</a></li>
          
         </ul>
       </div>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+$pageId =6;
 include dirname(__FILE__).'/includes/externalJavaScript.php';
 include dirname(__FILE__).'/includes/tools.php';
 printHead('Services')?>
@@ -20,7 +21,7 @@ printHead('Services')?>
 
       <div class="col-lg-6">
           <div class="services-paragraph">
-            <h2 class="sub-heading"> Wall & floor Tiling</h2>
+            <h2 id="wall&tiling" class="sub-heading"> Wall & floor Tiling</h2>
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, molestiae tenetur? Deserunt, dolore. Illum ullam minus, aperiam facilis earum recusandae similique et repellendus quo in maiores vel corporis voluptates enim sunt officia possimus rem nulla.</p>
           </div>
       </div>
