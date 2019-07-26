@@ -6,7 +6,7 @@ if (title === "tileGallary") {
 } else if (title === "AboutUs") {
   pictureSlides();
 } else if (title === "estimation") {
-  console.log("Estimation");
+  estimationContent();
 }
 
 function contactUsContent() {
@@ -112,4 +112,55 @@ function pictureSlides() {
     }
   }
   setInterval(changePicture, 2000);
+}
+
+//  ********************* Estimation page calculation ***************
+
+function estimationContent() {
+  // some of the UI variables
+
+  const form = document.getElementById("calculate-form");
+  const width = document.getElementById("width");
+  const height = document.getElementById("height");
+  const calculate = document.getElementById("calculate");
+  const option = document.getElementById("category");
+  // some incremental variables
+  let area, total;
+  // some displaying variables
+
+  const totalArea = document.getElementById("totalArea");
+  const totalAmount = document.getElementById("totalAmount");
+
+  // some displaying classes
+  const loadingSpinner = document.querySelector(".loading");
+  const displayResult = document.querySelectorAll(".display-results");
+
+  calculate.addEventListener("click", calculating);
+  function calculating(e) {
+    displayResult.forEach(function(index) {
+      index.style.display = "none";
+    });
+
+    loadingSpinner.style.display = "block";
+    setTimeout(calculationArea, 2000);
+    e.preventDefault();
+  }
+
+  function calculationArea() {
+    if (
+      option.value === "tile" &&
+      width.value !== " " &&
+      height.value !== " "
+    ) {
+      area = width.value * height.value;
+      total = area * 2;
+      totalArea.value = area;
+      totalAmount.value = "AUD " + total;
+      console.log("the code runs");
+      loadingSpinner.style.display = "none";
+      displayResult.forEach(function(index) {
+        index.style.display = "block";
+      });
+    }
+  }
 }

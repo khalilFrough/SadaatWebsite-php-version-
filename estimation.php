@@ -15,7 +15,7 @@ printHead('estimation')?>
       <!-- *********** card starts from here ******* -->
         <div class="estimation-card">
           <!-- form starts here -->
-          <form>
+          <form id="calculate-form">
           <div class="form-group">
           </div>
           <div class="form-group">
@@ -37,13 +37,13 @@ printHead('estimation')?>
             </select>
           </div>
           <br>
-          <button type="submit" id="submit" class="btn">Calculate</button>
+          <button type="submit" id="calculate" class="btn">Calculate</button>
           <h2 class="sub-heading">Display Results</h2>
           <div class="form-group display-results">
           <label for="totalArea">Total Area</label>
             <input type="number" class="form-control" name="totalArea"id="totalArea"disabled>
             <label for="totalAmount">Total Amount</label>
-            <input type="number" class="form-control" name="totalAmount"id="totalAmount"disabled>
+            <input type="text" class="form-control" name="totalAmount"id="totalAmount"disabled>
           </div>
   
           
