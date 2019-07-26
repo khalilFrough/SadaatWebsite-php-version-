@@ -268,7 +268,7 @@ body {
   width: 100%;
   margin-top: 2rem;
 }
-.tile-gallary:hover {
+.tile-gallary img:hover {
   opacity: 0.6;
   transition: ease-out 0.9s;
 }
@@ -306,9 +306,9 @@ body {
 /* --------------------------------------------------------------------------------
 -------------------------------Styling the Estimation Page--------------------------- */
 
-.services-quotation {
+.tile-gallary {
   /* border: 1px solid green; */
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--color-gray);
   margin: 2rem 0rem;
 }

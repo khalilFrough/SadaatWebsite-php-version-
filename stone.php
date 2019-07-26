@@ -8,25 +8,25 @@ printHead('StoneGallary')?>
  <!-- including the head  -->
  <?php include dirname(__FILE__).'/includes/head.php';?> 
 
- <div class="container">
-   <div class="row">
-   <div class="col-lg-12">
-          <div class="services-quotation">
-            <h1 class="heading">Stone and Marble Gallery</h1>
-            <h2 class="sub-heading">Stone, Flooring and Marble Work</h2>
+ <div class="container ">
+   <div class="row ">
+   <div class="col-lg-12 tile-gallary">
+          
+            <h1 class="heading">Stone and Marbel Gallery</h1>
+            <h2 class="sub-heading">Some Samples of Stone and Marbel Works</h2>
 
             <!-- first colum picutres -->
             <div class="row">
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3 col-md-6  col-sm-12 col-xs-12 tile-gallary">
                     <a class="tile-gallary"href="../media/wallTiles/floor1.jpg" data-lightbox="mygallery" data-title="Floor tile"><img src="../media/wallTiles/floor1.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 tile-gallary">
                     <a class="tile-gallary"href="../media/wallTiles/floor2.jpg" data-lightbox="mygallery" data-title="Floor tile"><img src="../media/wallTiles/floor2.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3 col-md-6  col-sm-12 col-xs-12 tile-gallary">
                     <a class="tile-gallary"href="../media/wallTiles/floor3.jpg" data-lightbox="mygallery" data-title="Floor tile"><img src="../media/wallTiles/floor3.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3 col-md-6  col-sm-12 col-xs-12 tile-gallary">
                     <a class="tile-gallary"href="../media/wallTiles/floor4.jpg" data-lightbox="mygallery" data-title="Floor tile"><img src="../media/wallTiles/floor4.jpg" alt="tile"></a>
                 </div>
                 <!-- end of row -->
@@ -36,16 +36,16 @@ printHead('StoneGallary')?>
             <!-- second column pictures -->
 
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  tile-gallary">
                   <a class="tile-gallary"href="../media/wallTiles/floor5.jpg" data-lightbox="mygallery" data-title="Floor tile"><img src="../media/wallTiles/floor5.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  tile-gallary">
                   <a class="tile-gallary"href="../media/wallTiles/floor8.jpg" data-lightbox="mygallery" data-title="Floor tile"><img src="../media/wallTiles/floor8.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3  col-md-6  col-sm-12 col-xs-12 tile-gallary">
                    <a class="tile-gallary"href="../media/wallTiles/floor9.jpg" data-lightbox="mygallery" data-title="Floor tile"><img src="../media/wallTiles/floor9.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12  tile-gallary">
                 <a class="tile-gallary"href="../media/wallTiles/floor10.jpg" data-lightbox="mygallery" data-title="Floor tile"><img src="../media/wallTiles/floor10.jpg" alt="tile"></a>
                 </div>
                 <!-- end of row -->
@@ -53,23 +53,22 @@ printHead('StoneGallary')?>
             
             <!-- third colum pictures -->
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  tile-gallary">
                   <a class="tile-gallary"href="../media/wallTiles/wall1.jpg" data-lightbox="mygallery" data-title="Wall tile"><img src="../media/wallTiles/wall1.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  tile-gallary">
                   <a class="tile-gallary"href="../media/wallTiles/wall4.jpg" data-lightbox="mygallery" data-title="Wall tile"><img src="../media/wallTiles/wall4.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  tile-gallary">
                    <a class="tile-gallary"href="../media/wallTiles/wall3.jpg" data-lightbox="mygallery" data-title="Wall tile"><img src="../media/wallTiles/wall3.jpg" alt="tile"></a>
                 </div>
-                <div class="col-lg-3 tile-gallary">
+                <div class="col-lg-3 col-md-6  col-sm-12 col-xs-12 tile-gallary">
                 <a class="tile-gallary"href="../media/wallTiles/wall5.jpg" data-lightbox="mygallery" data-title="Wall tile"><img src="../media/wallTiles/wall5.jpg" alt="tile"></a>
                 </div>
                 <!-- end of row -->
             </div>
 
           </div>
-    </div> 
    </div>
         
  </div>
